@@ -1,4 +1,6 @@
 # Haskell-Cheatsheet
+To Do: Formatting
+
 
 Arithmetic
 
@@ -52,3 +54,52 @@ Interesting:
 not False
 > True
 
+== is equal to
+
+/= is not equal to
+
+5==5 -> true
+
+5/=5 -> false
+
+1==0 -> false
+
+5/=4 -> true
+
+
+
+C++ Function calls
+
+someFunction(parameter1, parameter2)
+
+
+Haskell Function calls
+
+someFunction parameter1 parameter2
+
+Some built in functions
+
+succ - returns the successor
+
+succ 8 => 9
+
+
+min - returns the lower of the two
+
+min 2 10 => 2
+
+
+max - returns the larger of the two
+
+max 2 10 => 10
+
+
+Functions has the highester priority
+    ghci> succ 9 + max 5 4 + 1  
+    16  
+    ghci> (succ 9) + (max 5 4) + 1  
+    16  
+    
+If a function takes 2 parameters we can call it using backticks
+
+div 5 2 becomes 5 `div` 2
