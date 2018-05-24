@@ -27,3 +27,28 @@ div 5 2
 > 14
 
 Only div 5 2 and 5 `div` 2 act like integer arithmetic in other languages.
+
+Watch out for
+
+5* -3  won't work, must do 5*(-3)
+
+Boolean:
+&& and
+|| or
+
+True && True
+> True
+
+True && False
+> False
+
+True || True
+> True
+
+True || False
+> True
+
+Interesting:
+not False
+> True
+
