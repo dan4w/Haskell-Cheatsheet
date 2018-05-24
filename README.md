@@ -103,3 +103,6 @@ Functions has the highester priority
 If a function takes 2 parameters we can call it using backticks
 
 div 5 2 becomes 5 `div` 2
+
+
+Function order doesnt matter, you can call a function that calls another function even if the 2nd function is after the first one.
