@@ -106,9 +106,12 @@ div 5 2 becomes 5 `div` 2
 
 
 Function order doesnt matter, you can call a function that calls another function even if the 2nd function is after the first one.
+
 Don't start function name with capital letters.
+
 ' after a function name just means its a stricter type. It is a valid character in a function name
 
 Lists:
+
 Homogeneous, can't mix types in a list.
 
