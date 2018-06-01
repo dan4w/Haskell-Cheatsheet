@@ -119,3 +119,7 @@ Homogeneous, can't mix types in a list.
 Types:
 
 Everything in Haskell has a type that is known at compile time.
+
+removeNonUppercase :: [Char] -> [Char]  
+
+removeNonUppercase has a type of [Char] -> [Char], meaning that it maps from a string to a string.
