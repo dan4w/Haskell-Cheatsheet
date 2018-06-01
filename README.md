@@ -115,3 +115,7 @@ Lists:
 
 Homogeneous, can't mix types in a list.
 
+
+Types:
+
+Everything in Haskell has a type that is known at compile time.
